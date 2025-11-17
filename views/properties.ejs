@@ -1,0 +1,158 @@
+<%- include('partials/header') %>
+
+<div class="container">
+    <div class="content-box hero">
+        <h1>Circle Properties</h1>
+        <p>Explore the mathematical properties that make circles truly special.</p>
+    </div>
+
+    <div class="content-box">
+        <h2>Fundamental Properties</h2>
+        
+        <h3>1. Circumference</h3>
+        <p>The circumference is the distance around the circle. It is calculated using one of the most famous formulas in mathematics:</p>
+        <div class="formula">
+            C = 2πr = πd
+        </div>
+        <p>Where C is circumference, r is radius, d is diameter, and π (pi) ≈ 3.14159...</p>
+
+        <h3 style="margin-top: 2rem;">2. Area</h3>
+        <p>The area of a circle is the amount of space enclosed within its boundary:</p>
+        <div class="formula">
+            A = πr²
+        </div>
+        <p>A circle has the largest area of any shape with a given perimeter.</p>
+
+        <h3 style="margin-top: 2rem;">3. Diameter and Radius</h3>
+        <p>The diameter is twice the radius:</p>
+        <div class="formula">
+            d = 2r
+        </div>
+    </div>
+
+    <div class="content-box">
+        <h2>Advanced Properties</h2>
+        
+        <div class="info-grid">
+            <div class="info-card">
+                <h3>Arc Length</h3>
+                <p>The length of an arc (portion of circumference) with central angle θ (in radians):</p>
+                <div style="background: rgba(255,255,255,0.2); padding: 0.5rem; margin-top: 0.5rem; border-radius: 5px;">
+                    s = rθ
+                </div>
+            </div>
+            
+            <div class="info-card">
+                <h3>Sector Area</h3>
+                <p>The area of a sector (pie slice) with central angle θ (in radians):</p>
+                <div style="background: rgba(255,255,255,0.2); padding: 0.5rem; margin-top: 0.5rem; border-radius: 5px;">
+                    A = (1/2)r²θ
+                </div>
+            </div>
+            
+            <div class="info-card">
+                <h3>Chord Length</h3>
+                <p>The length of a chord at distance d from center:</p>
+                <div style="background: rgba(255,255,255,0.2); padding: 0.5rem; margin-top: 0.5rem; border-radius: 5px;">
+                    c = 2√(r² - d²)
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="content-box">
+        <h2>The Magic of Pi (π)</h2>
+        <p>Pi is the ratio of a circle's circumference to its diameter, and it's one of mathematics' most fascinating constants:</p>
+        
+        <div class="circle-display">
+            <div class="circle" style="width: 180px; height: 180px; background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);">
+                <div style="text-align: center;">
+                    <div style="font-size: 2rem;">π</div>
+                    <div style="font-size: 0.9rem;">3.14159...</div>
+                </div>
+            </div>
+        </div>
+        
+        <ul style="line-height: 2; font-size: 1.1rem; margin-top: 1rem;">
+            <li>π is an irrational number (cannot be expressed as a simple fraction)</li>
+            <li>π is a transcendental number (not a root of any polynomial equation)</li>
+            <li>The digits of π never repeat and never end</li>
+            <li>Over 31 trillion digits of π have been calculated</li>
+            <li>π Day is celebrated on March 14th (3/14)</li>
+        </ul>
+    </div>
+
+    <div class="content-box">
+        <h2>Geometric Properties</h2>
+        
+        <div class="info-grid">
+            <div class="info-card">
+                <h3>Infinite Symmetry</h3>
+                <p>A circle has infinite lines of symmetry - every line through its center is a line of symmetry.</p>
+            </div>
+            
+            <div class="info-card">
+                <h3>Constant Curvature</h3>
+                <p>Every point on a circle has the same curvature (κ = 1/r), making it the only closed curve with constant curvature.</p>
+            </div>
+            
+            <div class="info-card">
+                <h3>Inscribed Angles</h3>
+                <p>An inscribed angle is half the central angle that subtends the same arc.</p>
+            </div>
+            
+            <div class="info-card">
+                <h3>Tangent Perpendicularity</h3>
+                <p>A tangent line to a circle is always perpendicular to the radius at the point of tangency.</p>
+            </div>
+            
+            <div class="info-card">
+                <h3>Power of a Point</h3>
+                <p>For any point and circle, the product of distances along intersecting chords is constant.</p>
+            </div>
+            
+            <div class="info-card">
+                <h3>Circle Packing</h3>
+                <p>Equal circles can pack a plane with a density of approximately 90.69% (hexagonal packing).</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="content-box">
+        <h2>Equations of a Circle</h2>
+        
+        <h3>Standard Form</h3>
+        <p>A circle with center (h, k) and radius r:</p>
+        <div class="formula">
+            (x - h)² + (y - k)² = r²
+        </div>
+        
+        <h3 style="margin-top: 2rem;">General Form</h3>
+        <p>The general equation of a circle:</p>
+        <div class="formula">
+            x² + y² + Dx + Ey + F = 0
+        </div>
+        
+        <h3 style="margin-top: 2rem;">Parametric Form</h3>
+        <p>A circle can be represented parametrically:</p>
+        <div class="formula">
+            x = h + r·cos(t)<br>
+            y = k + r·sin(t)<br>
+            where 0 ≤ t ≤ 2π
+        </div>
+    </div>
+
+    <div class="content-box">
+        <h2>Interesting Circle Facts</h2>
+        <ul style="line-height: 2; font-size: 1.1rem;">
+            <li>🔵 Among all closed curves of equal length, the circle encloses the maximum area (Isoperimetric Inequality)</li>
+            <li>🔵 A circle is the limit of a regular polygon as the number of sides approaches infinity</li>
+            <li>🔵 The area of a circle equals the area of a triangle with base equal to circumference and height equal to radius</li>
+            <li>🔵 Any triangle inscribed in a circle with one side as diameter is a right triangle (Thales' Theorem)</li>
+            <li>🔵 Circles are conic sections formed when a plane intersects a cone parallel to its base</li>
+            <li>🔵 The sum of opposite angles in a cyclic quadrilateral (inscribed in a circle) is always 180°</li>
+        </ul>
+    </div>
+</div>
+
+<%- include('partials/footer') %>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= typeof title !== 'undefined' ? title : 'World of Circles' %></title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>🔵 World of Circles 🔵</h1>
+            <ul>
+                <li><a href="/" class="<%= page === 'home' ? 'active' : '' %>">Home</a></li>
+                <li><a href="/about" class="<%= page === 'about' ? 'active' : '' %>">About Circles</a></li>
+                <li><a href="/properties" class="<%= page === 'properties' ? 'active' : '' %>">Properties</a></li>
+                <li><a href="/applications" class="<%= page === 'applications' ? 'active' : '' %>">Applications</a></li>
+                <li><a href="/dynasty" class="<%= page === 'dynasty' ? 'active' : '' %>">The Circles Dynasty</a></li>
+                <li><a href="/ceremonies" class="<%= page === 'ceremonies' ? 'active' : '' %>">Ceremonies</a></li>
+                <li><a href="/gallery" class="<%= page === 'gallery' ? 'active' : '' %>">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
